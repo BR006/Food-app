@@ -11,5 +11,6 @@ COPY . .
 EXPOSE 80
 
 # Start Nginx in the foreground (so Docker container keeps running)
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]  
+
 
